@@ -1,0 +1,82 @@
+----- LINKED BAG 340 C++-----
+
+--->>>>> Test 1 --->>>>>
+ !add()...     #-END 5-FIVE 4-FOUR 4-FOUR 3-THREE 2-TWO 1-ONE 0-ZERO #-BEGIN
+ !Display bag: #-BEGIN 0-ZERO 1-ONE 2-TWO 3-THREE 4-FOUR 4-FOUR 5-FIVE #-END
+  -----------> 9 item(s) total
+
+--->>>>> Test 2 --->>>>>
+ !removeSecondNode340()...
+ !removeSecondNode340()...
+ !Display bag: #-BEGIN 2-TWO 3-THREE 4-FOUR 4-FOUR 5-FIVE #-END
+  -----------> 7 item(s) total
+
+ !removeSecondNode340()...
+ !removeSecondNode340()...
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END
+  -----------> 5 item(s) total
+
+--->>>>> Test 3 --->>>>>
+ !addEnd340()...
+ !addEnd340()...
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR
+  -----------> 7 item(s) total
+
+ !addEnd340()...
+ !addEnd340()...
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 9 item(s) total
+
+--->>>>> Test 4 --->>>>>
+ !getCurrentSize340Iterative - Iterative...
+  ---> Current size: 9
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 9 item(s) total
+
+--->>>>> Test 5 --->>>>>
+ !getCurrentSize340Recursive() - Recursive...
+  ---> Current size: 9
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 9 item(s) total
+
+--->>>>> Test 6 --->>>>>
+ !getFrequencyOf340Recursive() - Recursive...
+  ---> 0-ZERO:  1
+  ---> 1-ONE:   0
+  ---> 2-TWO:   0
+  ---> 4-FOUR:  3
+  ---> 9-NINE:  2
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 9 item(s) total
+
+ !getFrequencyOf()...
+  ---> 0-ZERO:  1
+  ---> 1-ONE:   0
+  ---> 2-TWO:   0
+  ---> 4-FOUR:  3
+  ---> 9-NINE:  2
+ !Display bag: #-BEGIN 4-FOUR 4-FOUR 5-FIVE #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 9 item(s) total
+
+--->>>>> Test 7 --->>>>>
+ !removeRandom340() ---> 5-FIVE
+ !removeRandom340() ---> 4-FOUR
+ !Display bag: 4-FOUR #-BEGIN #-END 9-NINE 4-FOUR 9-NINE 0-ZERO
+  -----------> 7 item(s) total
+
+ !removeRandom340() ---> 0-ZERO
+ !removeRandom340() ---> 4-FOUR
+ !Display bag: #-END 9-NINE #-BEGIN 9-NINE 4-FOUR
+  -----------> 5 item(s) total
+
+ !removeRandom340() ---> 9-NINE
+ !removeRandom340() ---> #-BEGIN
+ !Display bag: #-END 9-NINE 4-FOUR
+  -----------> 3 item(s) total
+
+ !removeRandom340() ---> #-END
+ !removeRandom340() ---> 4-FOUR
+ !Display bag: 9-NINE
+  -----------> 1 item(s) total
+
+Press any key to continue . . .

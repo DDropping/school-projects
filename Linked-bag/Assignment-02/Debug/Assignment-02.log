@@ -1,0 +1,3 @@
+﻿  LinkedBag340.cpp
+c:\users\davidxps\source\repos\assignment-02\assignment-02\linkedbag340.cpp(124): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Assignment-02.vcxproj -> C:\Users\Davidxps\source\repos\Assignment-02\Debug\Assignment-02.exe

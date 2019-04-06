@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\davidxps\source\repos\dictionary\dictionary\source.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\davidxps\source\repos\dictionary\dictionary\source.cpp(44): warning C4018: '<': signed/unsigned mismatch
+c:\users\davidxps\source\repos\dictionary\dictionary\source.cpp(89): warning C4018: '<': signed/unsigned mismatch
+  Dictionary.vcxproj -> C:\Users\Davidxps\source\repos\Dictionary\Debug\Dictionary.exe

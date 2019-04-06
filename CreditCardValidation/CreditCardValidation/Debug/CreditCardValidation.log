@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\davidxps\source\repos\creditcardvalidation\creditcardvalidation\source.cpp(78): warning C4715: 'isvalidcc': not all control paths return a value
+  CreditCardValidation.vcxproj -> C:\Users\Davidxps\source\repos\CreditCardValidation\Debug\CreditCardValidation.exe
